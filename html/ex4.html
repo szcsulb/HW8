@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exercise 4 - Scott Zuvich</title>
+  <link href="../css/hw8.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <h1>Sample Form</h1>
+  <form name="sample" id="sample" action="#" method="post">
+    <p><label for="name">Name: <input type="text" name="name" id="name" /></label></p>
+    <p><label for="email">Email: <input type="text" name="email" id="email" /></label></p>
+    Payment Type:<br />
+    <label for="cash"><input type="radio" name="payment" id="cash" value="cash" /> Cash</label><br />
+    <label for="checkbox"><input type="radio" name="payment" id="cc" value="cc" /> Credit Card</label><br />
+    <label for="gpay"><input type="radio" name="payment" id="gpay" value="gpay" /> Google Pay</label><br />
+    <label for="apay"><input type="radio" name="payment" id="apay" value="apay" /> Apple Pay</label>
+    <p><label for="signup"><input type="checkbox" name="promotion" id="promotion" value="on" /> Sign up for the promotion</label></p>
+    <p>
+      <label for="location">Preferred location:</label>
+      <select name="location" id="location">
+        <option value="la">Los Angeles</option>
+        <option value="oc">Orange County</option>
+        <option value="rs">Riverside</option>
+        <option value="sd">San Diego</option>
+      </select>
+    </p>
+    <input type="submit" name="submit" id="submit" value="Submit" />
+    <input type="reset" name="cancel" id="cancel" value="Cancel" />
+  </form>
+  <div id="infoTable"></div>
+  <script src="../js/ex4.js"></script>
+</body>
+</html>

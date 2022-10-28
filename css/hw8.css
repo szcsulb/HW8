@@ -1,0 +1,35 @@
+body {
+  font-family: Calibri, sans-serif
+}
+
+table#paintings,
+table#paintings td,
+table#paintings th,
+table#gitUserTable,
+table#gitUserTable td,
+table#sampleTable,
+table#sampleTable td,
+table#sampleTable th {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+table#paintings thead,
+table#sampleTable thead {
+  background: lightgrey;
+}
+table#paintings thead th,
+table#paintings tbody td,
+table#gitUserTable td,
+table#sampleTable td,
+table#sampleTable th 
+{
+  padding: 0 5px;
+}
+
+#gitUserPhoto {
+    width:  164px;
+}
+
+form#sample {
+ margin: 8px 0;
+}
